@@ -21,9 +21,9 @@
                         <div class="form-group">
                             <label for="helpInputTop">CPF/CNPJ</label>
                             <input type="text" class="form-control" id="cpf-cnpj" placeholder="CPF/CNPJ"
-                                v-model="form.cpf_cpnj" v-bind:class="{ 'is-invalid': erorr.cpf_cpnj }">
-                            <div v-if="erorr.cpf_cpnj" class="invalid-feedback">
-                                {{ erorr.cpf_cpnj[0]  }}
+                                v-model="form.cpf_cnpj" v-bind:class="{ 'is-invalid': erorr.cpf_cnpj }">
+                            <div v-if="erorr.cpf_cnpj" class="invalid-feedback">
+                                {{ erorr.cpf_cnpj[0]  }}
                             </div>
                         </div>
 
@@ -259,7 +259,7 @@
                     this.form = { // add data to v-model="form.*"
                         id: response.data.id,
                         nome: response.data.nome,
-                        cpf_cpnj: response.data.cpf_cpnj,
+                        cpf_cnpj: response.data.cpf_cnpj,
                         sexo: response.data.sexo
                     }
                 });
