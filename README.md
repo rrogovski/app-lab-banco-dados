@@ -29,13 +29,9 @@ As demais variáveis não precisar alterações.
 
 Feito isso acesse:
 
-`http://localhost:13306/`
+Para o PHPMyAdmin: `http://localhost:13306/`
 
-Para o PHPMyAdmin
-
-`http://localhost`
-
-Para a aplicação
+Para a aplicação: `http://localhost`
 
 
 ## Tela Inicial do app
