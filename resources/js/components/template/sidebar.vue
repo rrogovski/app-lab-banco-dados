@@ -6,7 +6,7 @@
             </div>
             <div class="sidebar-menu">
                 <ul class="menu">
-                    <li class='sidebar-title'>Principal</li>
+                    <!-- <li class='sidebar-title'>Principal</li>
 
                     <router-link to="*" v-slot="{ href,navigate, isActive, isExactActive }" custom>
                         <li class="sidebar-item" :class="[isActive && 'active', isExactActive && '']">
@@ -15,7 +15,7 @@
                             <span>Dashboard</span>
                         </a>
                     </li>
-                    </router-link>
+                    </router-link> -->
                     <li class='sidebar-title'>Cadastros</li>
                                                     <!-- link : navigasi : active : non active -->
                     <router-link to="/pessoas" v-slot="{ href,navigate, isActive, isExactActive }" custom>
@@ -27,17 +27,16 @@
                         </a>
                     </li>
                     </router-link>
-                    <router-link to="/sexo" v-slot="{ href,navigate, isActive, isExactActive }" custom>
+                    <!-- <router-link to="/sexo" v-slot="{ href,navigate, isActive, isExactActive }" custom>
                         <li class="sidebar-item" :class="[isActive && 'active', isExactActive && '']">
                         <a :href="href" @click="navigate" class='sidebar-link'>
                             <i data-feather="home" width="20"></i>
                             <span>Sexo</span>
                         </a>
                     </li>
-                    </router-link>
+                    </router-link> -->
 
-                    <router-link to="/siswa" v-slot="{ href,navigate, isActive, isExactActive }" custom>
-                                                <!-- add active link class -->
+                    <!-- <router-link to="/siswa" v-slot="{ href,navigate, isActive, isExactActive }" custom>
                         <li class="sidebar-item" :class="[isActive && 'active', isExactActive && '']">
                         <a :href="href" @click="navigate" class='sidebar-link'>
                             <i data-feather="user" width="20"></i>
@@ -52,7 +51,7 @@
                             <span>Kelas</span>
                         </a>
                     </li>
-                    </router-link>
+                    </router-link> -->
                 </ul>
             </div>
             <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
